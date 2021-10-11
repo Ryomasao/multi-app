@@ -1,5 +1,5 @@
 import Template from '@/components/templates/MainTemplate'
-import { MaybeComplexUI } from '@multi-app/ui'
+import { MaybeComplexUI } from '@ryomasao/multi-app-ui'
 
 const CalendarPage = () => {
   return (

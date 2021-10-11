@@ -1,0 +1,23 @@
+{
+  "name": "@multi-app/ui",
+  "version": "1.0.0",
+  "author": "Ryomasao",
+  "license": "MIT",
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "rollup": "^2.58.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.4.3"
+  }
+}

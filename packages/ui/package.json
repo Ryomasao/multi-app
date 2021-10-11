@@ -1,5 +1,5 @@
 {
-  "name": "@multi-app/ui",
+  "name": "@ryomasao/multi-app",
   "version": "1.0.0",
   "author": "Ryomasao",
   "license": "MIT",
@@ -9,6 +9,13 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Ryomasao/multi-app.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "build": "rollup -c rollup.config.js"
   },

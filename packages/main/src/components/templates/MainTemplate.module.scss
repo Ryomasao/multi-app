@@ -1,0 +1,12 @@
+.container {
+	display: grid;
+	grid-template-columns: 100px 1fr;
+}
+
+.content {
+	padding: 30px;
+}
+
+.sidemenu {
+	height: 100vh;
+}

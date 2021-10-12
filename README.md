@@ -33,3 +33,8 @@ yarn add @ryomasao/multi-app-ui@1.0.0
 https://blog.35d.jp/2020-12-18-github-private-registry-yarn-install
 
 `yarn add` && `yarn install`あたりの挙動の理解が怪しい。`~/.npmrc`には token 書いてるから、login しなくてもよさそうなんだけど。
+
+## そのほか
+
+- vercel にデプロイしたとき問題なくパッケージを install できる理由がよくわかってない。
+  → vercel と github の連携設定の中に npm パッケージを参照する権限も含まれてるのかな。
